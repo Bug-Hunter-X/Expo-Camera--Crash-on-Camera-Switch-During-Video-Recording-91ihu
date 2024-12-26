@@ -1,0 +1,1 @@
+This bug occurs when using the Expo `Camera` API with custom camera controls.  The issue is that when trying to switch between cameras (front and back) while recording video, the app crashes or freezes. This doesn't happen consistently, making debugging difficult. The error is not clearly indicated in the console, sometimes just a generic 'app crashed' message.
